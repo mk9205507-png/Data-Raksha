@@ -1,0 +1,45 @@
+# ==============================================================================
+# DataRaksha AI - Root .gitignore
+# ==============================================================================
+
+# Node.js / Frontend dependencies and build outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode, cache, and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets (CRITICAL: NEVER COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
